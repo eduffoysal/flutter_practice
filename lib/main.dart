@@ -16,7 +16,9 @@ class EduApp extends StatelessWidget {
       title: "Class Organizer",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.cyan,
+        primaryColor: const Color.fromARGB(255, 4, 115, 167),
+        secondaryHeaderColor: const Color.fromARGB(255, 13, 46, 73),
+        primarySwatch: Colors.lightGreen,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightBlue),
         useMaterial3: true,
       ),
